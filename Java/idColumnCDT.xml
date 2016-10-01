@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Creacion de columnas para CDT" enabled="true" name="IdColumCDT">${:import(javax.persistence.Column,javax.persistence.GeneratedValue,javax.persistence.GenerationType,javax.persistence.Id)}
+	/**
+	*	${Comment}
+	**/
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "${ColumnName}")
