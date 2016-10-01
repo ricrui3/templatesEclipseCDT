@@ -5,8 +5,10 @@
 Para crear el Constructor con superclase, el Constructor con atributos y los Getter y Setter pocisionarse al final del documento y usar:
 1. Alt + Shift + s -> c
 > Constructor con superclase
+
 2. Alt + Shift + s -> o
 > Constructor con atributos
+
 3. Alt + Shift + s -> r
 > Getter y Setter
 
