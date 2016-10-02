@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Genera las columnas NOMBRE y DESCRIPCION que son TAAAAAAAAAN utilizadas en las bases de datos de la CDT" enabled="true" name="nombreDescripcionColumnCDT">${:import(javax.persistence.Column)}
+	/**
+	*	Nombre ${comment}
+	**/
+	@Column(name="nb_${columnName}")
+	private String nombre;
+
+	/**
+	*	Descripcion ${comment}
+	**/
+	@Column(name="ds_${columnName}")
+	private String descripcion;
+
+	${cursor}</template></templates>

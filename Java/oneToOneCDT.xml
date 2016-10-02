@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="forma de escribir relaciones uno a uno de la CDT" enabled="true" name="oneToOneCDT">${:import(javax.persistence.JoinColumn, javax.persistence.OneToOne)}
+	/**
+	 * ${comment}
+	**/
+	@OneToOne
+	@JoinColumn(name = "${name}", referencedColumnName = "${name}", insertable = false, updatable = false)
+	private ${Model} ${model};
+	
+	${cursor}</template></templates>

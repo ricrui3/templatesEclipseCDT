@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="relaciones many to one usadas en CDT" enabled="true" name="manyToOneCDT">${:import(javax.persistence.JoinColumn, javax.persistence.ManyToOne)}
 	/**
-	 *
+	 * ${comment}
 	**/
 	@ManyToOne
 	@JoinColumn(name = "${name}", referencedColumnName = "${name}", insertable = false, updatable = false)
