@@ -35,6 +35,7 @@ Templates usados en eclipse por la CDT de la ESCOM, para agregarlos al workspace
 Para usarlos simplemente escribir el nombre de cada uno y utilizar autocompletar (**Alt +  Tab**).
 
 * Java
+ * Model
   * ColumnCDT
   * idColumnCDT
   * manyToOneCDT
