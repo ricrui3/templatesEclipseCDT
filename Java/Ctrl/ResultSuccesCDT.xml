@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="false" context="java" deleted="false" description="Anotacion basica del result success utilizada en la cdt" enabled="true" name="ResultSuccessCDT">${:import(mx.com.emeth.util.ActionSupportEmeth)}
+
+@Results({ @Result(name = ActionSupportEmeth.SUCCESS, type = "redirectAction", params = { "actionName",
+		"${redirectTo}" }) })</template></templates>
