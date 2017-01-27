@@ -36,7 +36,7 @@ Para usarlos simplemente escribir el nombre de cada uno y utilizar autocompletar
 
 * Java
  * Model
-   * ColumnCDT
+  * ColumnCDT
    * idColumnCDT
    * manyToOneCDT
    * nombreDescripcionColumnsCDT
